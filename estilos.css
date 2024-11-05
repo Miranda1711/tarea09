@@ -97,8 +97,8 @@ body{
     width:60%;
 }
 #contenido {
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
+     display:flex;
+    justify-content: space-between;
     gap: 40px;
     width: 87%;
    margin: auto;
